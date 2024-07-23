@@ -1,0 +1,16 @@
+<html>
+<head><script>
+window.open('fb-messenger://share?link=' + encodeURIComponent(link) + '&app_id=' + encodeURIComponent(app_id));
+</script>
+<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no"></head><body><p><a href=sms:5552345678>Phone only</a></p><p><a href=sms:+15552345678>Phone(+1) only</a></p><p><a href="sms:?body=Hello,%20world">Body only</a></p><p><a href="sms:;body=Hello,%20world">;body only</a></p><p><a href="sms:5552345678?body=Hello%20World">Phone and ?body</a></p><p><a href="sms:+15552345678?body=Hello%20World">Phone(+1) and ?body</a></p><p><a href="sms:5552345678;body=Hello%20World">Phone(+1) and ;body</a></p><p><a href=sms://5552345678>Phone only (sms://)</a></p><p><a href=sms://+15552345678>Phone(+1) only (sms://)</a></p><p><a href="sms://5552345678?body=Hello,%20World">Phone and ?body (sms://)</a></p><p><a href="sms://+15552345678?body=Hello,%20World">Phone(+1) and ?body (sms://)</a></p><p><a href="sms://5552345678;body=Hello,%20World">Phone and ;body (sms://)</a></p><p><a href="sms://+15552345678;body=Hello,%20World">Phone(+1) and ;body (sms://)</a></p>
+
+<a id="viber_share">Click</a>
+<script>
+    var buttonID = "viber_share";
+    var text = "Check this out: ";
+    document.getElementById(buttonID)
+        .setAttribute('href', "https://3p3x.adj.st/?adjust_t=u783g1_kw9yml&adjust_fallback=https%3A%2F%2Fwww.viber.com%2F%3Futm_source%3DPartner%26utm_medium%3DSharebutton%26utm_campaign%3DDefualt&adjust_campaign=Sharebutton&adjust_deeplink=" + encodeURIComponent("viber://forward?text=" + encodeURIComponent(text + " " + window.location.href)));
+</script>
+<a href="sms:900000000;&body=Hi Call me"> Call Me </a>
+<a href="sms://+14035550185?body=I%27m%20interested%20in%20your%20product.%20Please%20contact%20me.">Send a SMS message</a>
+</body></html>
