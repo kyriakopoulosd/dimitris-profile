@@ -1347,7 +1347,7 @@ html.locked-scrolling, html.locked-scrolling body { height: 100%; overflow: hidd
 /* Colors */
 .bg-white { background-color: #fff; }
 
-.bg-grey { background-color: #f6f6f6; }
+.bg-grey { background-color: rgb(68 147 169 / 11%) }
 
 .bg-black { background-color: rgba(10,10,10,0.9);
     border-radius: 10px; }
