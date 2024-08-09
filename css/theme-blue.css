@@ -889,7 +889,7 @@ img { max-width: 100%; height: auto; -webkit-backface-visibility: hidden; }
 
 .min-fullheight { min-height: 100vh; }
 
-.sep-line { position: relative; z-index: 1; display: block; height: 6px; border: none; margin: 50px 0; background: rgba(0, 0, 0, 0.05); }
+.sep-line { position: relative; z-index: 1; display: block; height: 6px; border: none; background: rgba(0, 0, 0, 0.05); }
 
 .font-secondary { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
 
